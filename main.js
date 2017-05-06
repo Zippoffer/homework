@@ -6,30 +6,20 @@
 
 
   function parse(){
-	  var parsedWord = String.fromCharCode(parseInt(inputBox.value,16));
-		var string = inputBox.value;
-	  // var parsedWord = inputBox.value;
-	  // var parsedWord = String.fromCharCode(inputBox.value);
-	  outputBox.value = parsedWord
-		// for (var i = 0; i < string.length; i++) {
-		// 	display.value = string.charCodeAt(i++)
-	 //  	console.log("test", string.charCodeAt(i));
 
-		// }
-// for (let j = 0; j < 100; j++) {
-// 	display.value = (j)
-// 	console.log('this is this', display.value)
-// }
+		var word = display.value
+
+	  outputBox.value = word.replace(/\•/g, '');
+
   }
 
 inputBox.onkeyup = function(){
-	var k = "••••••"
+	var x = "••••••"
 	var o = inputBox.value
 
-    document.getElementById('display').innerHTML = k+k+k+k+k+k+k+k+k+k+k+k+k
-    +k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+o+k+k+k+k+k+k+k
-    +k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k+k
+    document.getElementById('display').innerHTML = x+x+x+x+x+x+x+x+x+x+x+x+x
+    +x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+o+x+x+x+x+x+x+x
+    +x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x
     
 
 }
-
