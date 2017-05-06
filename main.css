@@ -1,32 +1,50 @@
 
 
-
-
-
+body {
+	background-color: black;
+	color: white;
+}
 #inputBox {
 	background-color: coral;
 	border: 1px solid black;
 	text-align: center;
+	font-size: 42px;
+	max-height: 80px;
+	width:50%;
 }
 #outputBox {
-	background-color: lightgreen;
-	border: 1px solid black;
-	text-align: center;
-
-}
-#submit {
-background-color: lightblue;
-margin-top: 12px;
-margin-bottom: 12px;
-}
-form {
-	margin-top: 100px;
-}
-#display {
 	background-color: cornsilk;
 	border: 1px solid black;
 	text-align: center;
+	font-size: 42px;
+	max-height: 160px;
+	width:50%;
 }
-#bigger {
-	color: red;
+#submit {
+	background-color: lightblue;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 22%;
 }
+form {
+	margin-left: 30%;
+}
+#display {
+	background-image: url(../HPA/images/580b585b2edbce24c47b2474.png);
+	background-size: 60px 60px;
+	border: 1px solid black;
+	margin-bottom: 23px;
+	text-align: center;
+	width: 50%;
+	height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
